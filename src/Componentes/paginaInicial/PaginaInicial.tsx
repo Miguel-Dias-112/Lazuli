@@ -3,8 +3,10 @@ import './PaginaInicial.css'
 function PaginaInicial() {
 
   return (
-    <div>
-      <h1>App</h1>
+    <div className='PagInicialCtn'>
+        <header>x</header>
+        <aside>y</aside>
+        <main>z</main>
     </div>
   
   )
