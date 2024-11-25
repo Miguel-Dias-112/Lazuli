@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './PaginaInicial.css'
 function PaginaInicial() {
 

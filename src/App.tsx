@@ -1,9 +1,7 @@
-import { useState } from 'react'
-import { Route, Router, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import PaginaInicial from './Componentes/paginaInicial/PaginaInicial'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Routes>
