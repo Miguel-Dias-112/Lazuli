@@ -11,7 +11,7 @@ function FasesView() {
             </h1>
         </header>
         <main>
-            <h1> <div className='BlueBar'></div>Selecione uma fase<div className='BlueBar'></div></h1>
+            <h1>Selecione uma fase</h1>
             <div className='CarroselCtn' >
               {
                 [1,2,3,4,5,6].map((item, index) => {
