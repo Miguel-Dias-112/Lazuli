@@ -70,7 +70,6 @@
     align-items: center;
     flex-direction: column;
     background-color: white;
-    background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA0wMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAKhAAAgICAgICAQMEAwAAAAAAAAECEQMhEjFBUQQTYSJxkSMygaEUQsH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD75Q+t24Ud/wAZxpOMdnL8nInJJde2a/GbhGjk27Hfv/Q4tp9hDaK4+QFKVKtv9zCUP+xu8bYvrYHDKM7uyoJezoyYn4syUalXECljT8lRgvyVGGi4xYEcV6sbh6RoomijaKOfg1uiJJvp0djg+NmE4AczU12S5SRtKDb22L630QZxcmi1J1oEq1THTS6KLhKVJspyfQRT6ro0jG/3EHPK0c//AB5Tny9+D03isSgorSESsIYGo/qpejPPGv7dHVJOtGU4twbaBXLjk92P5N1GTd+hPsv5Mqxp9URXm5Msub0wOXNmf2SqboYV68/jylG0ldmmHHJ9ro6cnH0ViimIiscNbRt9Y4Roto1Gay4CUTVk2IM3G0Z/Xs2kxJFgiMFQ+LT0XFDS2SDOn5RUdOim6E2WBuWqM2i9EsCHBeR8VXSKaE4gZ8RqC9FpFJaJAlFeikl6FdFIsBQmUgEEEz4qDNHRhnnFRMjhyTSnocm8kI7dGefe0aQr6U26rsjTxvkx/ry6An5cH/yJ78gRX1ebGqS8kY04mmd1KxJ/q/wbYaxsuyYyKsoUiSnJsQGb7KSHRSQAqoRSVDAycdj4aLFJlE8UDigQbsAodDACWgSKaGgI4lRSG2KwCiS7JbAyyXWjmkr7OxqzGWN2Zg4Zw8hxf0z4+PB0zio9mTVqS99kaefkwSc23VgaZIvm/wBUv5Ag9jMq/IsSt79Cxz+/GnVM0hGio040DHQ+KNYiL/A1sAApIYkUUAhh5AkKsoKAniNodAAkh0NDQE0Ki6FQENEpM0odAZ0SzRol0BlPnHcN/hmTzZFr6m/ybS0Q5OiDLJLlFOUaZEa7ekaZJSp9GDb1Xsy0zlii5N8v9CHL5ONNppWIg3+Fl+yC+vTXg64/pW+zz1DhNZIab7rydC+R+pRoYOtSLTswi7ZojWMq0DFQ+JQ0OwRVFAgfYC8hANAKgpsKBIaAEhidjCGA10IBMQ2hASyJFszYVE+jHI+K9m0lZjmWjOjCcm1p79GP2VKL3d7r0E203RlbVXVEaef8nm883GLpv2BtnyZvtfHC61X6n6/YDKvYxJtUyZR/q/5LbadIahu29lRtj15NLMofktLZrE1qnHwPsmKKKhpDEUqoqChVTLQNAR4BAxoASGSUgoAACHYAIAF5GJgTJEM0IkgqKMshtRnk6omjzs0dkKCraOrKkjmyOUU3H0YaZZoL7Ht9Lx+AM5OMpW27f5AivTWkm9mmOSb6ZDi1BVsrCnVtlRsl6LQoFmsZ00NMVjRoUFCYWA+vIJi5CsBt7AQJgNDEADsaYgAdjIsdhFCkKwABMTsApMymrNX0Zy6Jo5c34RxZG3ja9nfkenZyZI610Zaee4u/7QOh3+wGR631uKauwgqMFNz/ALpO7N8fXZUaofgSaBujSGPmRyQpSKNOVj5GHIOTA1chWZ8hrsDVMbeiLGmm6YFJlp6M+VB9llFtheiOYr0QUuyrITQ00gLsdmd30OwLkR5G5IzkwLZnNCeSkTKVgY5Yu6vRy5JcKTVo6criltnLyhKT/V/JlpnLg5NuTQjmyRubam+/QGR6GTlF+O7NMcmxfJhwnT6rsMcopFHRGVdlOV6MOT8ic6KN1JWNy9nMpbQ5TsUbNrwLl4MVkrQ7CNOQ1Iiv0pj8AaRmVzMQsLGrmgUjButk/clYpHVzE5nOsml+RrIKRs50CyGDnZLnQpHV9noccj9HPGSZrF2KkacmwC0KXtdARPYXoH0RegrD5EnbPOy5KzJx0eplp+Dy5rhmbktWZ0bKGRq1FNMC18nHW1/DAVXb8tu+2cEJShkbT8+RAEx0PJJvv+DPJkmo1y8gBQQyS312aRk7SAAKkqlouO0AFRomC7AArOTfKvATboAAi3Rm+xgQD0012K3QAQODuMn5r/0pu2gAotd/4NoukgADWBUugAqMmtMh1XQAZ1UZ8jhjXGumzy/kZJScm/yADRxxyzr+4AAiv//Z');
     background-size: cover;
     background-position: center;
 }
@@ -87,4 +86,89 @@
 
     padding: 0%;
     margin: 0%;
+}
+.GameplayCtn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    background-size: cover;
+}
+.energyBAR{
+    width: 100%;
+    height: auto;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+.energyBAR p{
+    width: fit-content;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+.magicBAR{
+    width: 100%;
+    height: auto;
+    border-top: 5px solid #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.magick{
+    width: auto;;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    border: 5px solid #242424;
+}
+.magick:hover{
+    background-color: red;
+}
+.magick img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background: #242424;
+    border: none;
+}
+.magick p{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0;
+    
+}
+.Inimigo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Inimigo img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
 }

@@ -36,7 +36,26 @@ function FaseVariavel() {
                     </p>
                 </div>
             </SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>
+                <div className='GameplayCtn'>
+                    <div className='energyBAR'>
+                        <p>Energia 100</p>
+                        <p>Vida 100</p>
+                    </div>
+                    <div className='Inimigo'>
+                        <img></img>
+                        
+                    </div>
+                    <div className='magicBAR'>
+                        <div className='magick'>
+                            <img></img>
+                            <p>Nome: Bola de Fogo</p>
+                            <p>Dano: 30</p>
+                            <p>Custo: 40</p>
+                        </div>
+                    </div>
+                </div>
+            </SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>
             ...
             </Swiper>
