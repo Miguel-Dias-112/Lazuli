@@ -1,4 +1,5 @@
 import './PaginaInicial.css'
+import lazuli from '../../Assets/Lazuli.svg'
 function PaginaInicial() {
 
   return (
@@ -18,7 +19,7 @@ function PaginaInicial() {
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda iste expedita aut quo, vel, dolores nemo, illum molestias excepturi labore tenetur doloremque. Quia in similique aliquam dolores nobis! Repellat, itaque!</p>
             </div>
             <div className='StartCtn'>
-                <img src='https://cdn.pixabay.com/photo'>
+                <img >
                 </img>
                 <button>Start</button>
             </div>
