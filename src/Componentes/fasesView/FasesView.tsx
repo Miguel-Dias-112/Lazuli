@@ -1,5 +1,10 @@
+import { useNavigate } from 'react-router-dom'
 import './FasesView.css'
 function FasesView() {
+  const nav = useNavigate()
+  function goFase(nomeFase: string){
+      nav('/lazuli/fases/'+nomeFase)
+  }
   return (
     <div className='FasesCtn'>
         <header>
@@ -14,12 +19,17 @@ function FasesView() {
             <h1>Selecione uma fase</h1>
             <div className='CarroselCtn' >
               {
-                [1,2,3,4,5,6].map((item, index) => {
+                ["Variavel",]
+                .map((item, index) => {
                   return (
                     <div className='CarroselItem' key={index}>
                       <div className='Ball'></div>
                       <p>Fase {item}</p>
-                      <button>Start</button>
+                      <button onClick={
+                          ()=>{
+                              goFase(item)
+                          } 
+                      }>Start</button>
                     </div>
                   )
                 })

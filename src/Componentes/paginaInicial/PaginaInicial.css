@@ -64,15 +64,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .PagInicialCtn main .TextoCtn{
-    width: 40%;   
-}
-.PagInicialCtn main .TextoCtn h2{
-    width: auto;
-    padding-bottom: 20px;
-    border-bottom: 5px solid royalblue;
+    width: 40%; 
+    max-width: 400px;  
 }
 .PagInicialCtn main .StartCtn{
     height: 100%;
@@ -84,10 +79,51 @@
     gap: 20px;
 
 }
+@media screen and (max-width: 800px){
+    .PagInicialCtn main{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 80px;
+        gap: 0;
+    }
+    .PagInicialCtn main .TextoCtn{
+        width: 100%;   
+    }
+    .PagInicialCtn main .TextoCtn h2{
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 5px solid royalblue;
+    }
+    .PagInicialCtn main .StartCtn{
+        height: auto;
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+    
+}
+
+
+.PagInicialCtn main .TextoCtn h2{
+    width: auto;
+    padding-bottom: 20px;
+    border-bottom: 5px solid royalblue;
+}
+
 .PagInicialCtn main .StartCtn img{
     width: 150px;
     height: 150px;
-    
+    border-radius: 100%;
+    border: 5px solid rgb(21, 44, 110);
+    background-color: royalblue;
+    background-color: #e5e5f7;
+opacity: 0.8;
+background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -26px 0/ 52px 52px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -26px 0/ 52px 52px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 52px 52px, linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0px 0/ 52px 52px;
 }
 .PagInicialCtn main .StartCtn button{
     width: 30%;
